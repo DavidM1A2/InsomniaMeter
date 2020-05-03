@@ -2,7 +2,7 @@
 modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
 loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-# A list of mods - how many allowed here is determined by the individual mod loader
+# Insomnia Meter v1.0 dependency
 [[mods]] # mandatory
     # The modid of the mod
     modId="insomniameter" # mandatory
@@ -20,7 +20,7 @@ loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft versio
     description='''
     Utility mod that shows your current insomnia level. When insomnia maxes out Phantoms will begin spawning
     '''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+# Forge 31 dependency
 [[dependencies.insomniameter]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
@@ -32,7 +32,7 @@ loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft versio
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
-# Here's another dependency
+# Minecraft 1.15.2 dependency
 [[dependencies.insomniameter]]
     modId="minecraft"
     mandatory=true
