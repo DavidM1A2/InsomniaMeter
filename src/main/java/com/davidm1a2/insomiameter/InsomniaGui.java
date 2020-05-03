@@ -68,8 +68,8 @@ public class InsomniaGui extends AbstractGui
             // Bind the background texture
             minecraft.textureManager.bindTexture(TEXTURE);
             // Compute the x and y of the texture
-            final int width = this.minecraft.func_228018_at_().getScaledWidth();
-            final int height = this.minecraft.func_228018_at_().getScaledHeight();
+            final int width = this.minecraft.getMainWindow().getScaledWidth();
+            final int height = this.minecraft.getMainWindow().getScaledHeight();
             final int x = width / 2 - 8;
             final int y = height - 54;
             // Compute the ticks since the last rest, use the server's sent value + the number of ticks that have passed on the client
