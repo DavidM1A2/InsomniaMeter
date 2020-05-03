@@ -22,7 +22,7 @@ import java.awt.*;
 public class InsomniaGui extends AbstractGui
 {
     // The insomnia background texture
-    private static final ResourceLocation TEXTURE = new ResourceLocation("insomniameter", "textures/gui/insomnia_texture.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation(Constants.MOD_ID, "textures/gui/insomnia_texture.png");
     // How long it takes for phantoms to spawn
     private static final int TIME_WHEN_PHANTOMS_CAN_SPAWN = 72000;
     // A reference to the MC instance

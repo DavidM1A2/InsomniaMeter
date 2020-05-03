@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.Mod;
 /**
  * Main mod file that sets up the InsomniaGui object and handles events
  */
-@Mod("insomniameter")
+@Mod(Constants.MOD_ID)
 public class InsomniaMeter
 {
     /**
