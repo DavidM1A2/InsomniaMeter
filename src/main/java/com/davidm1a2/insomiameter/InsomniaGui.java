@@ -65,7 +65,7 @@ public class InsomniaGui extends AbstractGui
             // Compute the x and y of the texture
             final int width = this.minecraft.getMainWindow().getScaledWidth();
             final int height = this.minecraft.getMainWindow().getScaledHeight();
-            final int x = width / 2 - 98;
+            final int x = width / 2 - 97;
             final int y = height - 38;
             // Compute the ticks since the last rest, use the server's sent value + the number of ticks that have passed on the client
             final int ticksSinceLastRest = player.getStats().getValue(Stats.CUSTOM.get(Stats.TIME_SINCE_REST)) + timeSinceLastServerUpdate;
